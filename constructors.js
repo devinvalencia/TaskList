@@ -3,6 +3,8 @@ const human = {
   age: 30
 } // Object Literal, not an object
 
+// Props & funcs of a constructor need a this.varName otherwise its just an object literal
+
 // Constructor
 function Person(x, dob) {
   this.name = x;

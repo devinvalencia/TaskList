@@ -12,13 +12,13 @@ function Person(firstName, lastName, dob) {
   this.fistName = firstName;
   this.lastName = lastName;
   this.birthday = new Date(dob);
-}
+} //Object Constructor defined
 
 Person.prototype.getAge = function() {
   var diff = Date.now() - this.birthday.getTime();
   var ageDate = new Date(diff);
   return Math.abs(ageDate.getUTCFullYear()-1970);
-}
+} // Proto defined
 
 var obj1 = new Person('Devin','Valencia','10/03/1990');
 console.log(obj1);
