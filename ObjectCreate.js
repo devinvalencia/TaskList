@@ -1,3 +1,5 @@
+// **** OLD ES5 WAY ******
+
 // ****** Method 1 **********
 var prototypeMethods = {
   greeting: function() {

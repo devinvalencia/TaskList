@@ -1,3 +1,5 @@
+// **** OLD ES5 WAY ******
+
 // Want to have one object inherit from another (outside the base ones that all objs inherit by default)
 
 function Google(){ // Passing to House

@@ -1,3 +1,5 @@
+// **** OLD ES5 WAY ******
+
 const human = {
   name: 'Devin',
   age: 30
@@ -19,3 +21,8 @@ function Person(x, dob) {
 var obj1 = new Person('Devin', '10/03/1990'); // Actual object
 console.log(obj1);
 
+function test() {
+  return 0;
+}
+
+console.log(test());

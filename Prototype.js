@@ -1,3 +1,5 @@
+// **** OLD ES5 WAY ******
+
 //Object.prototype - All obj inherit properties and method from protos, object literals inheritting from this object
 
 // Object.prototype > yourObj.prototype > instance of obj, any obj can access funcs and props from both
